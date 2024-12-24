@@ -62,7 +62,7 @@ def train_models():
 train_models()
 
 # 입력 값
-st.subheader("Input Parameters")
+st.subheader("HeatSink Input Parameters")
 col1, col2, col3 = st.columns(3)
 with col1:
     length = st.number_input("Length:", min_value=30, max_value=130, value=50, step=1)
