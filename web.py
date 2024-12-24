@@ -9,9 +9,9 @@ from sklearn.decomposition import TruncatedSVD
 # CSV 파일에서 데이터 읽기
 def load_data(file_type):
     if file_type == "Full Factorial":
-        return pd.read_csv("D:\\Code\\Predict\\EC_result_full_factrorial.csv")
+        return pd.read_csv("D:\\data\\EC_result_full_factrorial.csv")
     elif file_type == "Optimal Space Filling":
-        return pd.read_csv("D:\\Code\\Predict\\EC_result_Optimal_fiiling_space.csv")
+        return pd.read_csv("D:\\data\\EC_result_Optimal_fiiling_space.csv")
     else:
         raise ValueError("Invalid file type selected.")
 
