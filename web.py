@@ -16,7 +16,7 @@ def load_data(file_type):
         raise ValueError("Invalid file type selected.")
 
 # Streamlit UI 설정
-st.title("메타모델을 활용한 패키기 온도 및 표면온도 예측 도구")
+st.title("메타모델을 활용한 PKG 및 표면온도 예측 도구")
 
 # 데이터 초기화
 data_type = st.selectbox("Choose DOE Data Set:", ["Full Factorial", "Optimal Space Filling"])
